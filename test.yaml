@@ -7,8 +7,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: sanity-check
-        env:
-          repo_token: ${{ secrets.GITHUB_TOKEN }}
+#         env:
+#           repo_token: ${{ secrets.GITHUB_TOKEN }}
         run: |
 
           # Your ML workflow goes here
