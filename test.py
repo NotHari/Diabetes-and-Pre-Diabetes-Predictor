@@ -9,10 +9,4 @@ X_test, y = make_regression(100, n_features=8)
 
 # Test on the model
 y_hat = model.predict(X_test)
-<<<<<<< .mine
-||||||| .r20
-# testing svn
-=======
-# testing svn
-# tortoise is slow
->>>>>>> .r22
+
